@@ -1,0 +1,33 @@
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright" class="un-footer">
+	<div class="container">
+		<div class="col-sm-6 col-md-7">
+			{{ if isset .Site.Params "copyright" }}
+			<p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+			{{ end }}
+		</div>
+
+		<div class="text-center col-xs-12 col-sm-3 col-md-3">
+			<p>
+				<a href="http://bootstrapious.com/free-templates">
+					{{ i18n "termsCond" }}
+				</a>
+			</p>
+			<!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
+		</div>
+
+		<div class="text-center col-xs-12 col-sm-3 col-md-2">
+			<p>
+				<a href="https://cuby.mx/politica-de-privacidad">
+					{{ i18n "privacyPol" }}
+				</a>
+			</p>
+		</div>
+
+	</div>
+</div>
+<!-- /#copyright -->
+
+<!-- *** COPYRIGHT END *** -->
